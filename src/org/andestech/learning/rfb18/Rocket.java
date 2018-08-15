@@ -1,6 +1,6 @@
 package org.andestech.learning.rfb18;
 
-public class Rocket {
+public class Rocket extends Object {
 
 
     private double power;
@@ -43,14 +43,21 @@ public class Rocket {
        this.mass = mass;
        this.model = model;
        this.power = power;
+        System.out.println("+++ ctor Rocket");
 
     }
 
-    public String getData(){
+   // public String getData(){
+  private String getData(){
 
 
         return "Rocket: " + model + ", P=" + power +
-                ", M=" + mass + ".";
+                ", M=" + mass ;
+    }
+
+    public String toString()
+    {
+        return getData();
     }
 
 

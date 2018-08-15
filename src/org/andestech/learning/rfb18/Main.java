@@ -18,12 +18,18 @@ public class Main {
     public static void main(String[] args) {
 
     Rocket r1 = new Rocket(777777);
-        System.out.println(r1.getData());
+        //System.out.println(r1.getData());
+        System.out.println(r1);
         echo();
-        System.out.println(new Rocket().getData());
+       // System.out.println(new Rocket().getData());
+        System.out.println(new Rocket());
         Rocket r2 = Rocket.generateRocket("Союз");
         echo();
-        System.out.println(r2.getData());
-
+       // System.out.println(r2.getData());
+        System.out.println(r2);
+        echo("+", 55);
+        PhotonRocket pr2 = new PhotonRocket("RGGG5555");
+       // System.out.println(pr2.getData());
+        System.out.println(pr2);
     }
 }
