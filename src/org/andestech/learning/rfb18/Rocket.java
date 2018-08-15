@@ -1,6 +1,6 @@
 package org.andestech.learning.rfb18;
 
-public class Rocket extends Object {
+public class Rocket extends AbstractRocket {
 
 
     private double power;
@@ -83,5 +83,11 @@ public class Rocket extends Object {
 
     public void setModel(String model) {
         this.model = model;
+    }
+
+    @Override
+    public void ignit() {
+        //.....
+        System.out.println("Rocket, Поехали!!");
     }
 }

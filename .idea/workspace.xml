@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1db6bfe8-8343-4f61-acd7-0173b17174ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/AbstractRocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/IRocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/SuperPhotonRocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/TestPhotonRocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Rocket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1105" />
+          <entry key="java" value="1672" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1105" />
+          <entry key="JAVA" value="1672" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="243">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#264#265#0" expanded="true" />
@@ -62,10 +65,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="806" column="11" lean-forward="true" selection-start-line="806" selection-start-column="11" selection-end-line="806" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/Rocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+            <state relative-caret-position="2552">
+              <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
               <folding>
                 <element signature="e#1126#1127#0" expanded="true" />
                 <element signature="e#1157#1158#0" expanded="true" />
@@ -86,19 +98,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/AbstractRocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/IRocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/TestPhotonRocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/SuperPhotonRocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -109,6 +157,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -118,8 +167,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/SuperPhotonRocket.java" />
+        <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/TestPhotonRocket.java" />
         <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Rocket.java" />
         <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java" />
+        <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/IRocket.java" />
+        <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/AbstractRocket.java" />
         <option value="$PROJECT_DIR$/src/org/andestech/learning/rfb18/Main.java" />
       </list>
     </option>
@@ -155,7 +208,25 @@
             </path>
             <path>
               <item name="JavaBasicClassDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasicClassDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rfb18" type="462c0819:PsiDirectoryNode" />
+              <item name="IRocket.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaBasicClassDay03" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaBasicClassDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaBasicClassDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 (1) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534313229037" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534316364974" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +286,7 @@
     <frame x="-13" y="0" width="1036" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21119843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23575638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,7 +296,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48710167" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14415781" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,10 +356,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/SuperPhotonRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/TestPhotonRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/IRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="243">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#264#265#0" expanded="true" />
@@ -296,10 +388,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="806" column="11" lean-forward="true" selection-start-line="806" selection-start-column="11" selection-end-line="806" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/Rocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="2552">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
             <element signature="e#1126#1127#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
@@ -321,16 +420,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/PhotonRocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="197">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/andestech/learning/rfb18/AbstractRocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
         </state>
       </provider>
     </entry>

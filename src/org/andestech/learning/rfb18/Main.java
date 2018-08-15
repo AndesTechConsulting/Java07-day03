@@ -3,6 +3,19 @@ package org.andestech.learning.rfb18;
 
 public class Main {
 
+    private static void testIgnit(IRocket r)
+    {
+        //.. check...
+
+        r.ignit();
+        r.powerUp(20);
+        r.powerUp(20);
+        //...
+        r.powerDown(20);
+        r.powerDown(20);
+        ///....
+    }
+
     private static void echo(String s, int N)
     {
         for(int i =0; i<N; i++) System.out.print(s);
@@ -31,5 +44,11 @@ public class Main {
         PhotonRocket pr2 = new PhotonRocket("RGGG5555");
        // System.out.println(pr2.getData());
         System.out.println(pr2);
+
+        r1.totalCycle();
+        echo();
+
+        testIgnit(pr2);
+
     }
 }
